@@ -13,6 +13,7 @@ function withEZDubug<C extends ClassConstructor<{getDebugValue():object}>>(Class
     }
 }
 
+// tslint:disable-next-line:max-classes-per-file
 class HardToDebugUser{
     constructor(private id:number,
                 private firstName : string,
